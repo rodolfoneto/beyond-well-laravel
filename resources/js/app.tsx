@@ -19,6 +19,7 @@ createInertiaApp({
             case name === 'indigenous-population':
             case name === 'general-population':
             case name === 'contact':
+            case name === 'book-appointment':
                 return null;
             case name.startsWith('auth/'):
                 return AuthLayout;

@@ -50,7 +50,7 @@ export default function Services() {
                     </h1>
                     <div className="mt-8">
                         <a
-                            href="#book"
+                            href="/book-appointment"
                             className="inline-flex items-center gap-3 bg-[#0f3d2e] px-7 py-3 text-sm text-white transition-colors hover:bg-[#0a2e22]"
                         >
                             book it now
@@ -172,14 +172,14 @@ export default function Services() {
                     {/* Booking buttons */}
                     <div id="book" className="mt-16 flex flex-col items-center gap-6">
                         <a
-                            href="#"
+                            href="/book-appointment?population=General+Population"
                             className="flex w-56 flex-col items-center bg-[#0f3d2e] px-7 py-4 text-sm text-white transition-colors hover:bg-[#0a2e22]"
                         >
                             <span>book it now</span>
                             <span className="mt-1 text-xs opacity-90">general population</span>
                         </a>
                         <a
-                            href="#"
+                            href="/book-appointment?population=Indigenous+Population"
                             className="flex w-56 flex-col items-center bg-[#0f3d2e] px-7 py-4 text-sm text-white transition-colors hover:bg-[#0a2e22]"
                         >
                             <span>book it now</span>

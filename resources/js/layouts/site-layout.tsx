@@ -57,6 +57,9 @@ export default function SiteLayout({ children }: PropsWithChildren) {
                                 { label: 'general population', href: '/general-population' },
                             ]}
                         />
+                        <Link href="/book-appointment" className="hover:text-[#0f3d2e]">
+                            book an appointment
+                        </Link>
                         <Link href="/contact" className="hover:text-[#0f3d2e]">
                             contact
                         </Link>

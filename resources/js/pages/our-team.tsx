@@ -78,7 +78,7 @@ function TeamMemberBlock({ member }: { member: TeamMember }) {
             <img
                 src={member.image}
                 alt={member.name}
-                className="h-32 w-32 object-cover"
+                className="h-auto w-32"
                 loading="lazy"
             />
 
